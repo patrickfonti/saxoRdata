@@ -6,8 +6,8 @@ Authors@R:
     person(given = "Patrick",
            family = "Fonti",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+           email = "patrick.fonti@wsl.ch",
+           comment = c(ORCID = "0000-0002-7070-3292"))
 Maintainer: Patrick Fonti <yourself@somewhere.net>
 Description: This package holds raw example data for the 'saxoR' package, consisting
     of Roxas measurements and images. Put in a separate package for size issues.
