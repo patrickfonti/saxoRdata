@@ -7,8 +7,8 @@ YAM_2756_2_1	005	++++++++++++++++++++++++++++++++++++++++	NA
 YAM_2756_2_1	006	NA	NA
 YAM_2756_2_1	007	GENERAL	NA
 YAM_2756_2_1	008	Larix_sibirica_Yamal_2.2675	Configuration
-YAM_2756_2_1	009	04.08.2020 21:47:44	Date created
-YAM_2756_2_1	010	3.0.552	ROXAS version
+YAM_2756_2_1	009	03.11.2022 05:35:27	Date created
+YAM_2756_2_1	010	3.0.654	ROXAS version
 YAM_2756_2_1	011	fonti	Author
 YAM_2756_2_1	012	2.267499924	Spatial Resolution [pixels/µm]
 YAM_2756_2_1	013	2745 / -160000	Origin (X / Y)
@@ -20,7 +20,7 @@ YAM_2756_2_1	018	179	Lower Limit [°]
 YAM_2756_2_1	019	181	Upper Limit [°]
 YAM_2756_2_1	020	1957	Outmost Year
 YAM_2756_2_1	021	1	Skip automatic ring detection
-YAM_2756_2_1	022	0	Manually select AOI's
+YAM_2756_2_1	022	1	Manually select AOI's
 YAM_2756_2_1	023	0	Consider outline trace in analysis
 YAM_2756_2_1	024	NA	Not used anymore in ROXAS v4; previously Extended visual output
 YAM_2756_2_1	025	NA	Not used anymore in ROXAS v4; Parenchyma analysis
@@ -30,16 +30,16 @@ YAM_2756_2_1	028	NA	NA
 YAM_2756_2_1	029	--------------------------------------------------------------------------------------	NA
 YAM_2756_2_1	030	SIZE & SHAPE CELL FILTERING	NA
 YAM_2756_2_1	031	5	Area low threshold
-YAM_2756_2_1	032	300	Area mid  threshold
+YAM_2756_2_1	032	100	Area mid  threshold
 YAM_2756_2_1	033	3500	Area up threshold
 YAM_2756_2_1	034	1	Roundness weight 
-YAM_2756_2_1	035	20.00	Roundness low threshold
-YAM_2756_2_1	036	4.00	Roundness mid threshold
+YAM_2756_2_1	035	15.00	Roundness low threshold
+YAM_2756_2_1	036	5.50	Roundness mid threshold
 YAM_2756_2_1	037	3.50	Roundness up threshold
-YAM_2756_2_1	038	0	Perimeter Ratio weight 
-YAM_2756_2_1	039	0.90	Perimeter Ratio low threshold
-YAM_2756_2_1	040	0.88	Perimeter Ratio mid threshold
-YAM_2756_2_1	041	0.60	Perimeter Ratio up threshold
+YAM_2756_2_1	038	1	Perimeter Ratio weight 
+YAM_2756_2_1	039	0.95	Perimeter Ratio low threshold
+YAM_2756_2_1	040	0.92	Perimeter Ratio mid threshold
+YAM_2756_2_1	041	0.90	Perimeter Ratio up threshold
 YAM_2756_2_1	042	0	Area/Box weight 
 YAM_2756_2_1	043	0.75	Area/Box low threshold at Area low threshold
 YAM_2756_2_1	044	0.60	Area/Box mid threshold at Area low threshold
@@ -188,24 +188,24 @@ YAM_2756_2_1	186	NA	NA
 YAM_2756_2_1	187	--------------------------------------------------------------------------------------	NA
 YAM_2756_2_1	188	MISCELLANEOUS 1	NA
 YAM_2756_2_1	189	125	Font size of calendar year labels [µm]
-YAM_2756_2_1	190	1	Life screen update
+YAM_2756_2_1	190	0	Life screen update
 YAM_2756_2_1	191	0	Run ROXAS in debugging mode
 YAM_2756_2_1	192	0	Outmost (peripheral) ring border was drawn
 YAM_2756_2_1	193	3	"Color of cell outlines: 0 - red, 1 - yellow, 2 - green, 3 - cyan, 4 - blue, 5 - magenta, 6 - white, 7 - black"
 YAM_2756_2_1	194	1	Save ROXAS data also as text files
 YAM_2756_2_1	195	1	Visualize cell wall thickness measurements with circles
-YAM_2756_2_1	196	200	N° of cells for which to visualize cell wall thickness
+YAM_2756_2_1	196	250	N° of cells for which to visualize cell wall thickness
 YAM_2756_2_1	197	1	"Color of ring borders & labels: 0 - red, 1 - yellow, 2 - green, 3 - cyan, 4 - blue, 5 - magenta, 6 - white, 7 - black"
 YAM_2756_2_1	198	2	"Color of AOIs, AOEs, CWT circles & Xylem outlines: 0 - red, 1 - yellow, 2 - green, 3 - cyan, 4 - blue, 5 - magenta, 6 - white, 7 - black"
 YAM_2756_2_1	199	0	Classify AOEs and calculate % area of poor sample quality AOEs for ring deciles
 YAM_2756_2_1	200	NA	NA
 YAM_2756_2_1	201	--------------------------------------------------------------------------------------	NA
 YAM_2756_2_1	202	CELL WALL THICKNESS	NA
-YAM_2756_2_1	203	10.00	Maximum radial cell wall thickness of smallest tracheids [µm]
+YAM_2756_2_1	203	14.00	Maximum radial cell wall thickness of smallest tracheids [µm]
 YAM_2756_2_1	204	3.00	Maximum radial cell wall thickness of largest tracheids [µm]
 YAM_2756_2_1	205	0.75	Width of CWT retrieval window in proportion to tracheid width/height
 YAM_2756_2_1	206	1.50	Quality control: maximum relation of two opposing CWT
-YAM_2756_2_1	207	10.00	Maximum tangential cell wall thickness of smallest tracheids [µm]
+YAM_2756_2_1	207	12.00	Maximum tangential cell wall thickness of smallest tracheids [µm]
 YAM_2756_2_1	208	3.00	Maximum tangential cell wall thickness of largest tracheids [µm]
 YAM_2756_2_1	209	NA	NA
 YAM_2756_2_1	210	NA	NA
@@ -215,7 +215,7 @@ YAM_2756_2_1	213	---------------------------------------------------------------
 YAM_2756_2_1	214	COLOR FILTERING	NA
 YAM_2756_2_1	215	0	Lower limit of overall mean color intensity
 YAM_2756_2_1	216	180	Lower limit of red color channel intensity
-YAM_2756_2_1	217	145	Lower limit of green color channel intensity
+YAM_2756_2_1	217	125	Lower limit of green color channel intensity
 YAM_2756_2_1	218	180	Lower limit of blue color channel intensity
 YAM_2756_2_1	219	255	Upper limit of overall mean color intensity
 YAM_2756_2_1	220	255	Upper limit of red color channel intensity
@@ -245,14 +245,14 @@ YAM_2756_2_1	243	1	Create thumbnail image with annotated measurements
 YAM_2756_2_1	244	33	Magnification of reduced-size image with annotated rings compared to original [%]
 YAM_2756_2_1	245	7	"Annotated image: color of ring borders & labels: 0 - red, 1 - yellow, 2 - green, 3 - cyan, 4 - blue, 5 - magenta, 6 - white, 7 - black"
 YAM_2756_2_1	246	3	"Annotated image: outline style of cells: 0 - none, 1 - outlines, 3 - filled"
-YAM_2756_2_1	247	_RW_Series.rwl	File name of ring-width reference file
+YAM_2756_2_1	247	YAM_Series.rwl	File name of ring-width reference file
 YAM_2756_2_1	248	NA	NA
 YAM_2756_2_1	249	NA	NA
 YAM_2756_2_1	250	--------------------------------------------------------------------------------------	NA
 YAM_2756_2_1	251	COMPLEX CELL FILTERING	NA
 YAM_2756_2_1	252	1	Aspect filtering: perform 1st run
 YAM_2756_2_1	253	5	Aspect filtering: lower cell lumen area limit 1st run
-YAM_2756_2_1	254	40	Aspect filtering: upper cell lumen area limit 1st run
+YAM_2756_2_1	254	45	Aspect filtering: upper cell lumen area limit 1st run
 YAM_2756_2_1	255	2.50	Aspect filtering: lower aspect limit 1st run
 YAM_2756_2_1	256	100.00	Aspect filtering: upper aspect limit 1st run
 YAM_2756_2_1	257	30	Aspect filtering: maximum inclination of major axis 1st run [°]
@@ -264,8 +264,8 @@ YAM_2756_2_1	262	100.00	Aspect filtering: upper aspect limit 2nd run
 YAM_2756_2_1	263	30	Aspect filtering: maximum inclination of major axis 2nd run [°]
 YAM_2756_2_1	264	1	Perform small cell outlier filtering
 YAM_2756_2_1	265	45	Small cell outlier filtering: radial window size 
-YAM_2756_2_1	266	175	Small cell outlier filtering: tangential window size 
-YAM_2756_2_1	267	5	Small cell outlier filtering: minimum number of reference cells in evaluation window 
+YAM_2756_2_1	266	150	Small cell outlier filtering: tangential window size 
+YAM_2756_2_1	267	4	Small cell outlier filtering: minimum number of reference cells in evaluation window 
 YAM_2756_2_1	268	12	Small cell outlier filtering: minimum cell lumen area factor threshold 
-YAM_2756_2_1	269	70	Small cell outlier filtering: reference cell lumen area percentile
-YAM_2756_2_1	270	5	Small cell outlier filtering: repeat filtering until change in cell count stabilizes at delta <= x
+YAM_2756_2_1	269	50	Small cell outlier filtering: reference cell lumen area percentile
+YAM_2756_2_1	270	0	Small cell outlier filtering: repeat filtering until change in cell count stabilizes at delta <= x
